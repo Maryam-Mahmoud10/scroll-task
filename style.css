@@ -1,0 +1,32 @@
+body{
+    background-color: bisque;
+}
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 12px 24px rgba(0, 0, 0, 0.2);
+  }
+  .btn img 
+  {
+      width: 20px   !important;
+      height: 20px  !important;
+  }
+  .up {
+    position: fixed;
+    bottom: 10px;
+    right: -30px;
+    background-color: #000000;
+    color: white;
+    font-weight: bold;
+    font-size: 12px;
+    padding: 5px;
+    border-radius: 4px;
+    font-family: Arial, Tahoma;
+    cursor: pointer;
+    transition: 0.2s;
+  }
+  .up.show {
+    right: 10px;
+  }
+  #sun {
+    color: black;
+  }
